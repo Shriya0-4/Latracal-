@@ -25,7 +25,7 @@ Features
 - Book Details: 
   - Access detailed information about each book, including reviews and ratings.
   
-- **Review System: 
+- Review System: 
   - Users can submit reviews and ratings for books.
   
 - Responsive Design: 
