@@ -15,9 +15,6 @@ Table of Contents
 - [Acknowledgements](#acknowledgements)
 
 Features
-
-- User Authentication: 
-  - Sign up, log in, and manage user profiles.
   
 - Book Browsing: 
   - View a list of books with search and filter functionality.
@@ -25,7 +22,7 @@ Features
 - Book Details: 
   - Access detailed information about each book, including reviews and ratings.
   
-- **Review System: 
+- Review System: 
   - Users can submit reviews and ratings for books.
   
 - Responsive Design: 
@@ -58,8 +55,6 @@ Features
 
 - Node.js and npm installed on your machine.
 - MongoDB installed and running, or use a cloud MongoDB service like MongoDB Atlas.
-
-
 
 Backend Setup
 
@@ -113,7 +108,7 @@ Backend Setup
 API Endpoints
 
  Books
-- GET /books: Retrieve all books (with pagination).
+- GET /books: Retrieve all books.
 - GET /books/:id: Retrieve a specific book by ID.
 - POST /books: Add a new book (admin only).
 
