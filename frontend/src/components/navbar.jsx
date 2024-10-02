@@ -95,7 +95,7 @@ function Navbar() {
                     {user.role === 'admin' && (
                         <form onSubmit={handleAddBook} className="mt-2">
                             <h4 className="font-semibold">Add a New Book</h4>
-                            {error && <div className="text-red-500">{error}</div>} {/* Error message display */}
+                            {error && <div className="text-red-500">{error}</div>}
                             <input type="text" name="title" placeholder="Title" value={newBook.title} onChange={handleInputChange} className="border rounded p-1 w-full mb-2" required />
                             <input type="text" name="author" placeholder="Author" value={newBook.author} onChange={handleInputChange} className="border rounded p-1 w-full mb-2" required />
                             <input type="text" name="cover_image_url" placeholder="Cover Image URL" value={newBook.cover_image_url} onChange={handleInputChange} className="border rounded p-1 w-full mb-2" />

@@ -66,7 +66,6 @@ const BookDetail = () => {
         <p className="text-yellow-500 font-bold">Rating: {book.rating}/5</p>
         <p><strong>Reviews:</strong> {book.reviews}</p>
 
-        {/* Add Review Section */}
         <div className="mt-4">
           <textarea
             value={newReview}
